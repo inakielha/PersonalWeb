@@ -330,8 +330,8 @@ p {
     border-radius: 10px;
     background-image: url(/assets/desk4.jpg);
     background-size: cover;
-    margin: 10px 5%;
     position: relative;
+    margin: 10px 5%;
     z-index: 1;
     overflow: hidden;
 }
@@ -374,7 +374,9 @@ p {
     margin: 0 auto;
     padding: 100px 0;
 }
-
+#projects .click{
+    color: orangered;
+}
 #projects .projects-header h1 {
     margin-bottom: 50px;
 }
@@ -777,6 +779,9 @@ p {
         display: none;
     }
     /* END HEADER */
+    #services .service-bottom {
+        align-items: flex-start;
+    }
     #services .service-bottom .service-item {
         flex-basis: 22%;
         margin: 1.5%;
