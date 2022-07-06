@@ -476,6 +476,7 @@ p {
 
 #about .col-right p {
     margin-bottom: 20px;
+    text-align: left;
 }
 
 #about .cta {
